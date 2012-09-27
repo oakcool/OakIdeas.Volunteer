@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OakIdeas.Volunteer.Models
 {
-    public class Task : BaseModel
+    public class UserStory : BaseModel
     {
         private string _name;
 
@@ -29,6 +29,14 @@ namespace OakIdeas.Volunteer.Models
         {
             get { return _project; }
             set { _project = value; }
+        }
+
+        private UserStoryState _state;
+
+        public UserStoryState State
+        {
+            get { return _state; }
+            set { _state = value; }
         }        
 
         private List<Volunteer> _volunteers;

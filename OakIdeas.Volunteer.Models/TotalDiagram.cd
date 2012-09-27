@@ -31,23 +31,37 @@
   <Class Name="OakIdeas.Volunteer.Models.Project">
     <Position X="14.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAICAAAAAgAABEAAAAAAQIAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <HashCode>AAAAICAAABAgAABEAAAACAQAAAAAAAAAAABABAAAAAA=</HashCode>
       <FileName>Project.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Volunteer.Models.Volunteer">
     <Position X="10.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAEAAACAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAQk=</HashCode>
+      <HashCode>AAEAAEAAADAAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAk=</HashCode>
       <FileName>Volunteer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="OakIdeas.Volunteer.Models.Task">
+  <Class Name="OakIdeas.Volunteer.Models.UserStory">
     <Position X="19.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAgAAAEACAACAQIAAAAAAAAAQAAAAAAAAA=</HashCode>
-      <FileName>Task.cs</FileName>
+      <HashCode>AAAAIAAAAAAgAAAEACAACAQIAAAAAAAAAQAABAAAAAA=</HashCode>
+      <FileName>UserStory.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Enum Name="OakIdeas.Volunteer.Models.UserStoryState">
+    <Position X="21.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>UserStoryState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OakIdeas.Volunteer.Models.ProjectState">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAIAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ProjectState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

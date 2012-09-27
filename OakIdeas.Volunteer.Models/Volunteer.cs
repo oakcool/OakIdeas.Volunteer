@@ -31,15 +31,12 @@ namespace OakIdeas.Volunteer.Models
             set { _lastName = value; }
         }
 
-        private List<Project> _projects;
+        private List<UserStory> _userStories;
 
-        public virtual List<Project> Projects
+        public virtual List<UserStory> UserStories
         {
-            get { return _projects; }
-            set { _projects = value; }
+            get { return _userStories; }
+            set { _userStories = value; }
         }
-
-
-        
     }
 }

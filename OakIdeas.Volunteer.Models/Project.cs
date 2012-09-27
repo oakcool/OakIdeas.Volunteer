@@ -31,22 +31,21 @@ namespace OakIdeas.Volunteer.Models
             set { _organizations = value; }
         }
 
-        private List<Volunteer> _volunteers;
+        private List<UserStory> _userStories;
 
-        public virtual List<Volunteer> Volunteers
+        public virtual List<UserStory> UserStories
         {
-            get { return _volunteers; }
-            set { _volunteers = value; }
+            get { return _userStories; }
+            set { _userStories = value; }
         }
 
-        private List<Task> _tasks;
+        private ProjectState _state;
 
-        public List<Task> Tasks
+        public ProjectState State
         {
-            get { return _tasks; }
-            set { _tasks = value; }
+            get { return _state; }
+            set { _state = value; }
         }
-        
 
     }
 }
